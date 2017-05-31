@@ -19,7 +19,7 @@ public class LoginController {
     
     public String login(){
         
-        return "books";
+        return "/pages/books.xhtml?faces-redirect=true";
     }
     
     
