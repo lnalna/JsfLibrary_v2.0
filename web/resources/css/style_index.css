@@ -53,3 +53,9 @@ body {
     height:200px;
 
 }
+
+.error{
+    color:#ff0000;
+    font-style: italic;
+    font-size: 12px;
+}
