@@ -46,7 +46,7 @@ public class LoginValidator implements Validator{
             FacesMessage facesMessage = new FacesMessage(e.getMessage());
             facesMessage.setSeverity(FacesMessage.SEVERITY_ERROR);
             throw new ValidatorException(facesMessage);
-        }
+          }
     }
         
     private ArrayList<String> getTestArray(){
