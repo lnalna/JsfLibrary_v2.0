@@ -5,6 +5,7 @@
  */
 package ru.javabegin.training.web.beans;
 
+import java.io.Serializable;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;
 
@@ -14,7 +15,7 @@ import javax.faces.bean.SessionScoped;
  */
 @ManagedBean
 @SessionScoped
-public class User {
+public class User implements Serializable{
 
     private String username;
     /**
